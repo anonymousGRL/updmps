@@ -23,7 +23,7 @@ public class LearnVerify {
 
     private int seed = 1650280571;
 
-    private boolean verbose = false;
+    private boolean verbose = true;
 
 
     public LearnVerify() {
