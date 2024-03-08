@@ -244,7 +244,7 @@ public class LearnVerify {
 
         List<Values> values = new ArrayList<>();
 
-        double rangeMin = 0.90;
+        double rangeMin = 0.7;
         double rangeMax = 0.99;
         //double rangeMean = rangeMin + (rangeMax - rangeMin) / 2;
         Random r = new Random();

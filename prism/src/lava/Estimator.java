@@ -173,7 +173,7 @@ public class Estimator {
     public void buildSULUncertain(Values values) throws PrismException {
         this.prism.loadPRISMModel(modulesFile);
         //this.prism.currentModelInfo.getConstantValues().setValues(values);
-        this.prism.setPRISMModelConstants(values);
+        this.prism.getPRISMModel().getConstantValues().setValues(values); // Set constant values to sampled parameters
         this.prism.setStoreVector(true);
         Result result = this.prism.modelCheck(ex.spec);
         //System.out.println(result);
